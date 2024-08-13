@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://ce8i3fsewbg1"]
+
+[ext_resource type="Script" path="res://game.gd" id="1_auh0s"]
+[ext_resource type="Texture2D" uid="uid://c10x1ur0un8l0" path="res://icon.svg" id="1_vg0kx"]
+
+[node name="game" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+unique_name_in_owner = true
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("1_vg0kx")
+script = ExtResource("1_auh0s")
+
+[node name="Camera2D" type="Camera2D" parent="."]

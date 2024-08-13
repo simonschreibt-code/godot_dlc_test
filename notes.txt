@@ -1,0 +1,17 @@
+Export Settings
+- exclude with: dlcs/*
+- export console wrapper: debug and release
+
+- export with excludes
+- export pck/zip
+	- zip to easily check content
+
+- bat file: FOLDERS MUST EXIST!
+
+- careful: using excluded resource--> game crash at start (see console)
+
+- careful: new files are NOT auto-added in the exluded in the export options!
+
+
+Links:
+https://www.reddit.com/r/godot/comments/r0icr7/godot_gist_2_get_all_files_recursively_from_a/
