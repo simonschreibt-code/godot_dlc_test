@@ -11,7 +11,25 @@ Export Settings
 - careful: using excluded resource--> game crash at start (see console)
 
 - careful: new files are NOT auto-added in the exluded in the export options!
+	- work around: cfg manager
+		careful: after writing the cfg, project > export only updates after reloading the project!
+
+- @onready var my_texture = Works in Editor, but FAILS in Build
 
 
 Links:
+https://www.reddit.com/r/godot/comments/hf5yko/godot_workflow_for_multiple_pck_files/
+
 https://www.reddit.com/r/godot/comments/r0icr7/godot_gist_2_get_all_files_recursively_from_a/
+
+
+
+- Demo: Start Build, Show BG, Delete more and more DLCs, Show that BG changes
+- Show Folder Structure (Windows/Godot)
+- Explain different: Editor vs Build
+	- Sprite <- Corgi (works in Editor bc resource is always there, Build does not when dlc folder is exluded)
+		- Fixed by loading dlc in _init() and not in _ready() in DlcManager 
+			- EXCEPT IS DLC FILE IS DELETED!
+- GitHub / Make_Builds.bat
+- Export Settings (build, dlcs, exludes, console wrapper)
+	- New files NOT auto-added

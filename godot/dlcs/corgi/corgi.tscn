@@ -1,9 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://b5trq30iys1pu"]
-
-[ext_resource type="Texture2D" uid="uid://dnqbttbbj4jsl" path="res://dlcs/corgi/corgi.png" id="1_bhbln"]
-
-[node name="Corgi" type="Node2D"]
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-scale = Vector2(0.5, 0.5)
-texture = ExtResource("1_bhbln")

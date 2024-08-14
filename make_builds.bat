@@ -4,14 +4,17 @@ set export_path=E:\private\projects\Godot\dlc_test\builds\
 set export_path_dlc=dlcs\
 set export_path_file=dlc_test.exe
 
-set export_path_file_dlc_01=dlc_test_corgi.zip
-set export_path_file_dlc_02=dlc_test_kitty.zip
-set export_path_file_dlc_03=dlc_test_sheepy.zip
+set dlc_filetype=.zip
+set dlc_name_00=dlc_default
+set dlc_name_01=dlc_corgi
+set dlc_name_02=dlc_kitty
+set dlc_name_03=dlc_sheepy
 
 mkdir "%export_path%"
 mkdir "%export_path%%export_path_dlc%"
 
 %godot_path% --headless --path %project_path% --export-release windows %export_path%%export_path_file%
-%godot_path% --headless --path %project_path% --export-pack dlc_01_corgi %export_path%%export_path_dlc%%export_path_file_dlc_01%
-%godot_path% --headless --path %project_path% --export-pack dlc_01_kitty %export_path%%export_path_dlc%%export_path_file_dlc_02%
-%godot_path% --headless --path %project_path% --export-pack dlc_01_sheepy %export_path%%export_path_dlc%%export_path_file_dlc_03%
+%godot_path% --headless --path %project_path% --export-pack %dlc_name_00% %export_path%%export_path_dlc%%dlc_name_00%%dlc_filetype%
+%godot_path% --headless --path %project_path% --export-pack %dlc_name_01% %export_path%%export_path_dlc%%dlc_name_01%%dlc_filetype%
+%godot_path% --headless --path %project_path% --export-pack %dlc_name_02% %export_path%%export_path_dlc%%dlc_name_02%%dlc_filetype%
+%godot_path% --headless --path %project_path% --export-pack %dlc_name_03% %export_path%%export_path_dlc%%dlc_name_03%%dlc_filetype%

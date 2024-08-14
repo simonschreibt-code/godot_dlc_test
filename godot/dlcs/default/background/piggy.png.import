@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvv1lyd0hv32f"
-path="res://.godot/imported/sheepy.png-5c89ab15d4d067018e2c126c218d2dac.ctex"
+uid="uid://dubrn5f62ahxw"
+path="res://.godot/imported/piggy.png-b2a4e5115024ba112176e6948a5039f3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://dlcs/sheepy/sheepy.png"
-dest_files=["res://.godot/imported/sheepy.png-5c89ab15d4d067018e2c126c218d2dac.ctex"]
+source_file="res://dlcs/default/background/piggy.png"
+dest_files=["res://.godot/imported/piggy.png-b2a4e5115024ba112176e6948a5039f3.ctex"]
 
 [params]
 

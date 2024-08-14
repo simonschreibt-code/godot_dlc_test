@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b8d861x7rj0qq"
-path="res://.godot/imported/kitty.png-449729d1f9d1ff478d95b231c418c86c.ctex"
+uid="uid://dnqbttbbj4jsl"
+path="res://.godot/imported/corgi.png-8e9e404bc1f1101b14a77d45fd6604e5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://dlcs/kitty/kitty.png"
-dest_files=["res://.godot/imported/kitty.png-449729d1f9d1ff478d95b231c418c86c.ctex"]
+source_file="res://dlcs/corgi/background/corgi.png"
+dest_files=["res://.godot/imported/corgi.png-8e9e404bc1f1101b14a77d45fd6604e5.ctex"]
 
 [params]
 
