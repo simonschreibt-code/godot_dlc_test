@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Background" load_steps=3 format=3 uid="uid://bmv5l6iwh5ym7"]
+
+[ext_resource type="Texture2D" uid="uid://b8d861x7rj0qq" path="res://dlcs/kitty/background/kitty.png" id="1_050s7"]
+[ext_resource type="Script" path="res://resources/background.gd" id="2_xyw3y"]
+
+[resource]
+script = ExtResource("2_xyw3y")
+name = "Hello Kitty"
+image = ExtResource("1_050s7")

@@ -25,11 +25,12 @@ https://www.reddit.com/r/godot/comments/r0icr7/godot_gist_2_get_all_files_recurs
 
 
 - Demo: Start Build, Show BG, Delete more and more DLCs, Show that BG changes
+- GitHub
 - Show Folder Structure (Windows/Godot)
+- Export Settings (build, dlcs, exludes, console wrapper)
+	- New files NOT auto-added
 - Explain different: Editor vs Build
 	- Sprite <- Corgi (works in Editor bc resource is always there, Build does not when dlc folder is exluded)
 		- Fixed by loading dlc in _init() and not in _ready() in DlcManager 
 			- EXCEPT IS DLC FILE IS DELETED!
-- GitHub / Make_Builds.bat
-- Export Settings (build, dlcs, exludes, console wrapper)
-	- New files NOT auto-added
+- Make_Builds.bat

@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Background" load_steps=3 format=3 uid="uid://dgc8u1m5ckxl1"]
+
+[ext_resource type="Texture2D" uid="uid://dvv1lyd0hv32f" path="res://dlcs/sheepy/background/sheepy.png" id="1_1dwe4"]
+[ext_resource type="Script" path="res://resources/background.gd" id="2_weo25"]
+
+[resource]
+script = ExtResource("2_weo25")
+name = "Sheepy Mc Sheep Face"
+image = ExtResource("1_1dwe4")

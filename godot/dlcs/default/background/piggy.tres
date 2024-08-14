@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Background" load_steps=3 format=3 uid="uid://dd3ij68aadfd6"]
+
+[ext_resource type="Texture2D" uid="uid://dubrn5f62ahxw" path="res://dlcs/default/background/piggy.png" id="1_nuo3j"]
+[ext_resource type="Script" path="res://resources/background.gd" id="2_320x3"]
+
+[resource]
+script = ExtResource("2_320x3")
+name = "Default Piggy"
+image = ExtResource("1_nuo3j")

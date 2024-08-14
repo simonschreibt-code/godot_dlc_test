@@ -12,3 +12,12 @@ texture = ExtResource("1_vg0kx")
 script = ExtResource("1_auh0s")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="hbox" type="HBoxContainer" parent="."]
+unique_name_in_owner = true
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+grow_horizontal = 2
+size_flags_horizontal = 3
+size_flags_vertical = 4

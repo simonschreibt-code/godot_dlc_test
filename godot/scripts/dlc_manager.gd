@@ -47,7 +47,7 @@ func load_dlc_content_into_DB() -> void:
 		dlc_content_DB[new_path] = load(new_path)
 		print("dlc manager: content added to DB: %s" % new_path)
 
-		if new_path.find("/background/") > -1:
+		if new_path.find("/background/") > -1 and new_path.find(".tres") > -1:
 			dlc_content_DB_backgrounds[new_path] = load(new_path)
 			print("dlc manager: content added to Background DB: %s" % new_path)
 
@@ -61,14 +61,14 @@ func get_scene(path : String) -> PackedScene:
 
 
 func get_background(path : String) -> CompressedTexture2D:
-	return dlc_content_DB_backgrounds.get(path)
+	return dlc_content_DB_backgrounds.get(path).image
 
 
 func get_background_last() -> CompressedTexture2D:
 	if dlc_content_DB_backgrounds.size() > 0:
 		var last_dlc_id : int = DlcManager.dlc_content_DB_backgrounds.size()-1
 		var last_dlc_path : String = DlcManager.dlc_content_DB_backgrounds.keys()[last_dlc_id]
-		return dlc_content_DB_backgrounds.get(last_dlc_path)
+		return dlc_content_DB_backgrounds.get(last_dlc_path).image
 
 	return null
 

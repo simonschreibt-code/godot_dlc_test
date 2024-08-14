@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Background" load_steps=3 format=3 uid="uid://b6hr6bey3larf"]
+
+[ext_resource type="Script" path="res://resources/background.gd" id="1_fx60e"]
+[ext_resource type="Texture2D" uid="uid://dnqbttbbj4jsl" path="res://dlcs/corgi/background/corgi.png" id="1_scrky"]
+
+[resource]
+script = ExtResource("1_fx60e")
+name = "Cute Corgi"
+image = ExtResource("1_scrky")
