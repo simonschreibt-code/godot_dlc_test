@@ -71,6 +71,3 @@ func get_background_last() -> CompressedTexture2D:
 		return dlc_content_DB_backgrounds.get(last_dlc_path).image
 
 	return null
-
-
-

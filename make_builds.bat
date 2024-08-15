@@ -1,4 +1,4 @@
-set godot_path="C:\Program Files\Godot_v4.2.2\Godot_v4.2.2-stable_win64.exe"
+set godot_path="C:\Program Files\Godot_v4.3\Godot_v4.3-stable_win64.exe"
 set project_path=E:\private\projects\Godot\dlc_test\godot
 set export_path=E:\private\projects\Godot\dlc_test\builds\
 set export_path_file=dlc_test.exe
