@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Background" load_steps=3 format=3 uid="uid://cd42jeahg1k30"]
+
+[ext_resource type="Script" path="res://resources/background.gd" id="1_2g6xr"]
+[ext_resource type="Texture2D" uid="uid://cjmjgkniubmox" path="res://dlcs/simon/background/simon.png" id="1_soc64"]
+
+[resource]
+script = ExtResource("1_2g6xr")
+name = "Simon"
+image = ExtResource("1_soc64")

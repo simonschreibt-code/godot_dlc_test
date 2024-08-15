@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Background" load_steps=3 format=3 uid="uid://cosmkhhgar0on"]
+
+[ext_resource type="Texture2D" uid="uid://cjmjgkniubmox" path="res://dlcs/simon/background/simon.png" id="1_ip3jt"]
+[ext_resource type="Script" path="res://resources/background.gd" id="2_kxxfp"]
+
+[resource]
+script = ExtResource("2_kxxfp")
+name = "Sheepy Overwritten by Simon"
+image = ExtResource("1_ip3jt")

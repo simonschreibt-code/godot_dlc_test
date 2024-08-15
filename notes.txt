@@ -1,17 +1,26 @@
 Links:
 https://github.com/simonschreibt-code/godot_dlc_test
 
-https://www.reddit.com/r/godot/comments/hf5yko/godot_workflow_for_multiple_pck_files/
 https://docs.godotengine.org/en/stable/tutorials/export/exporting_pcks.html#opening-pck-files-at-runtime
+https://www.reddit.com/r/godot/comments/hf5yko/godot_workflow_for_multiple_pck_files/
+https://forum.godotengine.org/t/load-pck-files-ingame-dlc-system-godot-3-0/27525
+https://www.gogogodot.io/dynamically-loading-resources-from-the-filesystem-for-android-and-web-exports/
 https://forum.godotengine.org/t/how-do-you-make-a-dlc-in-godot-4/54268/3
+https://forum.godotengine.org/t/projectsettings-loadresourcepack-and-diraccess/61546
 https://www.reddit.com/r/godot/comments/k320of/how_does_one_actually_make_dlc/
+https://www.reddit.com/r/godot/comments/ffnuni/how_can_i_expose_some_of_my_games_files_when/
+https://www.reddit.com/r/godot/comments/q0fcff/how_can_i_split_the_pck_file_please_help/
+https://forum.godotengine.org/t/making-dlcs-for-my-game/67298
+https://forum.godotengine.org/t/reloading-script-from-dlc-pck-file/18156
+https://www.reddit.com/r/godot/comments/gvgy1f/ive_made_a_fallout_like_mod_system/
+
 https://www.reddit.com/r/godot/comments/r0icr7/godot_gist_2_get_all_files_recursively_from_a/
 
+- Look at Comments!
+- Look at Video Description
+	- Github
 
 - Demo: Start Build, Show BG, Delete more and more DLCs, Show that BG changes
-
-- GitHub
-	- Make_Builds.bat
 
 - Show Folder Structure (Windows/Godot)
 
@@ -25,9 +34,13 @@ https://www.reddit.com/r/godot/comments/r0icr7/godot_gist_2_get_all_files_recurs
 	- New files NOT auto-added
 	- zip to easily check content
 
+- Make_Builds.bat
+
 - Explain different: Editor vs Build
 	- Sprite <- Corgi (works in Editor bc resource is always there, Build does not when dlc folder is exluded)
 		- Fixed by loading dlc in >>> _init() <<< and not in _ready() in DlcManager 
 		- EXCEPT IS DLC FILE IS DELETED! --> CRASH
+
+- .IMPORT / .REMAP
 
 - Show different usecases in game.gd

@@ -1,0 +1,15 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1723721830
+export_presets.cfg::TextFile::-1::1723722547::0::1::::<><>::
+icon.svg::CompressedTexture2D::1888850156915530766::1723721651::1723721657::1::::<><>::
+::res://dlcs/::1723722074
+::res://dlcs/sheepy/::1723722074
+::res://dlcs/sheepy/background/::1723722080
+sheepy.tres::Resource/Background::5793390818494370005::1723722539::0::1::::<><>::uid://cjmjgkniubmox::::res://dlcs/simon/background/simon.png<>res://resources/background.gd
+simon.png::CompressedTexture2D::9222375849041266379::1723722074::1723722534::1::::<><>::
+::res://dlcs/simon/::1723722011
+::res://dlcs/simon/background/::1723722011
+simon.png::CompressedTexture2D::5429871206581761067::1723721808::1723722536::1::::<><>::
+simon.tres::Resource/Resource::5044930494538372361::1723722011::0::1::::<><>::res://resources/background.gd<>uid://cjmjgkniubmox::::res://dlcs/simon/background/simon.png
+::res://resources/::1723721723
+background.gd::GDScript::-1::1723722539::0::1::::Background<>Resource<>::

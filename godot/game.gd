@@ -14,7 +14,7 @@ func _ready() -> void:
 
 	# From all DLC Backgrounds, give me the last one
 	var my_dlc_texture_02 : CompressedTexture2D
-	my_dlc_texture_02 = DlcManager.get_background("res://dlcs/corgi/background/corgi.tres")
+	my_dlc_texture_02 = DlcManager.get_background("res://dlcs/kitty/background/kitty.tres")
 	my_dlc_texture_02 = DlcManager.get_background_last()
 	
 	print("try to assign texture")
